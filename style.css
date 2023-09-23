@@ -10,7 +10,10 @@ body {
 }
 
 .music-player {
-    background-color: #fff;
+    background-image: url('background.jpg'); /* Đường dẫn đến hình nền */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
